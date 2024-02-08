@@ -1,9 +1,9 @@
 import './App.css';
-
+import welcomePage from './pages/welcomePage';
 function App() {
   return (
     <div className="App">
-      gros caca
+      <welcomePage/>
     </div>
   );
 }
