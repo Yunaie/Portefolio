@@ -1,0 +1,15 @@
+.moi {
+    border-radius: 50%;
+    max-width: 100%;
+    height: auto;
+    max-height: 200px;
+}
+
+.name {
+    color: aliceblue;
+}
+
+.bio {
+    z-index: 11;
+    position: relative;
+}

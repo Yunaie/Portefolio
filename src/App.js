@@ -3,10 +3,11 @@ import Welcomepage from './pages/Welcomepage';
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Welcomepage />
     </div>
   );
 }
 
 export default App;
+
