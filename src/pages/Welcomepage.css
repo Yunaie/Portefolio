@@ -54,7 +54,7 @@ section::before {
     right:-350px;
     color: #fff;
     white-space: nowrap;
-    font-size: 7.5vw; 
+    font-size: 5.5vw; 
 }
 
 #moon {
@@ -71,12 +71,14 @@ section::before {
     font-size: 1.5em;
     display: inline-block;
 
-    transform: translateY(100px);
+    transform: translateY(80px);
 }
 
-.sec {
+.aboutMe,
+.Contacts,
+.Experiences {
     width: 100%;
-    padding: 100px;
+    /* padding: 100px; */
     background-color: #1c0522;
     color: white;
     box-sizing: border-box; 

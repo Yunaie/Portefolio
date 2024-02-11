@@ -1,0 +1,59 @@
+.skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 100%; 
+  }
+  
+  .hard-skills h2 {
+    width: 100%;
+    margin: 20px 0;
+    font-size: 1.5em; 
+  }
+  
+  .Languages-code, .Framework, .Database {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 60px;
+    margin-bottom: 30px; 
+  }
+
+
+
+  .Languages-code > div, .Framework > div, .Database > div {
+    width: calc(33.333% - 40px); 
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-around;
+    gap: 5px;
+  }
+  
+  .hard-skills img {
+    width: 40px;
+    height: auto;
+    transition: transform 0.3s ease;
+  }
+
+  .Framework img{
+    width: auto;
+    height: 70px;
+    transition: transform 0.3s ease;
+  }
+
+  .Database img{
+    width: auto;
+    height: 70px;
+    transition: transform 0.3s ease;
+  }
+  
+  img:hover {
+    transform: scale(1.1);
+  }
+
+  .competences {
+    text-align: center;
+    color: #A799B7;
+  }

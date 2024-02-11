@@ -1,0 +1,52 @@
+.softskills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20;
+    width: 100%;
+  }
+
+  .softskills h4{
+    height: 10px;
+  }
+
+
+  
+  .softskills ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+  }
+  
+  .softskills li {
+    color: #DDA0DD;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+    transition: all 0.3s ease;
+    text-align: center;
+
+  }
+  
+  .softskills li:hover {
+    color: #333;
+    background-color: #d0d9f7;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(0,0,0,0.15);
+  }
+  
+  h4 {
+    font-weight: 900;
+    margin-bottom: 20px;
+    color: #d1ccdc;
+    text-align: center;
+  }
+
+  .softskillsNames{
+    display: flex;
+    width: 100%   ;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
