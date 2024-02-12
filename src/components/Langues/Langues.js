@@ -2,23 +2,23 @@ import "./Langues.css";
 
 function Langues() {
     return (
-        <div class='langues'>
-            <div class="langue">
+        <div className='langues'>
+            <div className="langue">
                 <p className="title">I speak...</p>
-                <p class="langue-nom">Francais</p>
-                <div class="progress-bar francais"></div>
+                <p className="langue-nom">Francais</p>
+                <div className="progress-bar francais"></div>
             </div>
-            <div class="langue">
-                <p class="langue-nom">Anglais</p>
-                <div class="progress-bar anglais"></div>
+            <div className="langue">
+                <p className="langue-nom">Anglais</p>
+                <div className="progress-bar anglais"></div>
             </div>
-            <div class="langue">
-                <p class="langue-nom">Allemand</p>
-                <div class="progress-bar allemand"></div>
+            <div className="langue">
+                <p className="langue-nom">Allemand</p>
+                <div className="progress-bar allemand"></div>
             </div>
-            <div class="langue">
-                <p class="langue-nom">Arabe</p>
-                <div class="progress-bar arabe"></div>
+            <div className="langue">
+                <p className="langue-nom">Arabe</p>
+                <div className="progress-bar arabe"></div>
             </div>
         </div>
     )
