@@ -21,16 +21,12 @@ function Experiences() {
                 </p>
             </div>
             <div className='javaproject'>
-                <Link to='https://github.com/louis-marceron/SE-PROJECT'>
                     <h3>Mental Heath App</h3>
-                </Link>
                 <p>
                     My team and I sought to develop an application that allows users to discuss their problems with others online in a secure environment. Additionally, users have access to various features designed to track their mental health progress.</p>
             </div>
             <div className='chatinc'>
-                <Link to='https://github.com/Yunaie/messagingApp '>
                     <h3>Messaging App</h3>
-                </Link>
                 <p>
                     I developed a messaging application in C, where users could log in and exchange messages with each other, as well as access different channels within the server.</p>
             </div>
