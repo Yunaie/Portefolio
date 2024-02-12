@@ -26,7 +26,7 @@ header ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-right: 5vh;
+    padding-right: 1vh;
 }
 
 header ul li {
