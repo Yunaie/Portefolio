@@ -33,3 +33,9 @@
 .arabe::after { width: 50%; }
 
 
+.title {
+    font-weight: 900;
+    margin-bottom: 20px;
+    color: #d1ccdc;
+    text-align: center;
+}

@@ -1,7 +1,8 @@
+import './Text.css';
 
 function Text() {
-    return(
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    return (
+        <p className="text-bio">4th year engineering student in Computer Science and Management at Polytech Montpellier in the South of France looking for a 4-month-long work placement in software development.</p>
     )
 }
 

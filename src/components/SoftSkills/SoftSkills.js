@@ -3,7 +3,7 @@ import "./SoftSkills.css"
 function SoftSkills() {
     return(
         <div className="softskills">
-        <h4>I am...</h4>
+        <h4>Skilled in...</h4>
         <ul className="softskillsNames">
             <li>
                 Teamwork

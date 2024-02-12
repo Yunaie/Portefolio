@@ -4,6 +4,7 @@ function Langues() {
     return (
         <div class='langues'>
             <div class="langue">
+                <p className="title">I speak...</p>
                 <p class="langue-nom">Francais</p>
                 <div class="progress-bar francais"></div>
             </div>

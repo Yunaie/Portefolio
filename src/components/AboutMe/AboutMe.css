@@ -1,32 +1,29 @@
 .container {
-    display: flex;
-    justify-content: center; /* Centrer les colonnes horizontalement */
-    gap: 20px; /* Espace entre les colonnes */
+    display:flex;
+    justify-content: center; 
+    gap: 20px; 
 }
 
 .bio-column, .skills-column, .hard-skills-column {
-    flex: 1; /* Donne à chaque colonne une flexibilité égale */
+    flex: 1; 
     display: flex;
     flex-direction: column;
-    align-items: center; /* Centre les éléments verticalement dans leurs colonnes */
-    background-color: #7E2E84; /* Couleur de fond de l'encadré */
-    border-radius: 10px; /* Bords arrondis */
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Ombre portée pour un effet de profondeur */
-    padding: 20px; /* Espacement intérieur pour le contenu */
-    margin: 20px; /* Marges extérieures pour espacer les colonnes entre elles */
-    max-width: 300px; /* Maximum width to control the column width */
+    align-items: center; 
+    border-radius: 10px; 
+    box-shadow: 0px 1px 15px #7597de; 
+    padding: 20px; 
+    margin: 20px; 
+    max-width: 300px; 
 }
 
-
 .bio {
-    max-width: 300px; /* ou ajustez selon le contenu */
+    max-width: 300px; 
     padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-/* Ajustez .name, .moi, .text-bio, et .langues-component comme décrit précédemment */
 
 .name, .text-bio, .langues-component {
     text-align: center;
@@ -53,7 +50,3 @@
     padding-top: 50px;
 }
 
-
-
-
-/* Assurez-vous que le reste de vos styles (pour Langues, HardSkills, SoftSkills) est cohérent avec cette disposition */

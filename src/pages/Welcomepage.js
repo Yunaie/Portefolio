@@ -6,6 +6,8 @@ import moonImage from "./../assets/moon.png";
 import mountainsBackImage from "./../assets/backMountains.png";
 import mountainsFrontImage from "./../assets/frontMontainspng.png";
 import AboutMe from '../components/AboutMe/AboutMe';
+import Contacts from '../components/Contacts/Contacts';
+import Experiences from '../components/Experiences/Experiences';
 
 function Welcomepage() {
     useEffect(() => {
@@ -51,18 +53,15 @@ function Welcomepage() {
                 <div className='aboutMe' id='aboutMe'>
                     <AboutMe />
                 </div>
+                <div className='container2'>
+                    <div className='Experiences' id='Experiences'>
+                        <Experiences />
+                    </div>
+                </div>
                 <div className='Contacts' id='Contacts'>
-                    <h2>Contacts</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Auctor eu augue ut lectus. Orci dapibus ultrices in iaculis nunc sed augue lacus viverra. Id donec ultrices tincidunt arcu non sodales. Turpis egestas pretium aenean pharetra magna ac placerat. Est placerat in egestas erat imperdiet. Fermentum leo vel orci porta non pulvinar neque laoreet suspendisse. Urna nec tincidunt praesent semper. Scelerisque viverra mauris in aliquam sem fringilla ut morbi. Faucibus interdum posuere lorem ipsum dolor sit amet. Senectus et netus et malesuada fames ac. Euismod quis viverra nibh cras pulvinar mattis nunc sed. Congue quisque egestas diam in arcu. Blandit turpis cursus in hac habitasse platea. Lorem ipsum dolor sit amet consectetur adipiscing elit ut.
+                        <Contacts />
+                    </div>
 
-                        porttitor massa id neque. Et malesuada fames ac turpis egestas sed tempus urna. Risus viverra adipiscing at in tellus. Nulla facilisi etiam dignissim diam quis enim lobortis scelerisque.</p>
-                </div>
-                <div className='Experiences' id='Experiences'>
-                    <h2>Experiences</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Auctor eu augue ut lectus. Orci dapibus ultrices in iaculis nunc sed augue lacus viverra. Id donec ultrices tincidunt arcu non sodales. Turpis egestas pretium aenean pharetra magna ac placerat. Est placerat in egestas erat imperdiet. Fermentum leo vel orci porta non pulvinar neque laoreet suspendisse. Urna nec tincidunt praesent semper. Scelerisque viverra mauris in aliquam sem fringilla ut morbi. Faucibus interdum posuere lorem ipsum dolor sit amet. Senectus et netus et malesuada fames ac. Euismod quis viverra nibh cras pulvinar mattis nunc sed. Congue quisque egestas diam in arcu. Blandit turpis cursus in hac habitasse platea. Lorem ipsum dolor sit amet consectetur adipiscing elit ut.
-
-                        porttitor massa id neque. Et malesuada fames ac turpis egestas sed tempus urna. Risus viverra adipiscing at in tellus. Nulla facilisi etiam dignissim diam quis enim lobortis scelerisque.</p>
-                </div>
             </div>
         </div>
     );

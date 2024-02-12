@@ -1,0 +1,54 @@
+.experiences-infos {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.experiences-infos div {
+    border-radius: 8px;
+    box-shadow: 0px 1px 15px #7597de;
+    padding: 15px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.tcs,.fdj,.javaproject,.chatinc {
+    flex: 1; 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    border-radius: 10px; 
+    box-shadow: 0px 1px 15px #7597de; 
+    padding: 20px; 
+    margin: 20px; 
+    max-width: 210px; 
+}
+
+.experiences-infos div:hover {
+    transform: translateY(-5px);
+}
+
+.experiences-infos h3 {
+    font-weight: 900;
+    margin-bottom: 20px;
+    color: #d1ccdc;
+    text-align: center;
+    margin: 0 0 10px 0;
+}
+
+.experiences-infos p {
+    color: #fff;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+.experiences-infos a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.experiences-infos a:hover {
+    text-decoration: underline;
+}
+

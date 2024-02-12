@@ -1,0 +1,44 @@
+.contacts-infos {
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    border-radius: 10px;
+    box-shadow: 0px 1px 15px #7597de;
+    padding: 20px;
+    margin: 20px;
+    /* Adjusted max-width or remove it if not needed */
+}
+
+/* Rest of the CSS remains the same */
+    
+
+
+.contacts-infos img {
+    width: 50px;
+    height: auto;
+}
+
+
+.mail {
+    position: relative;
+    display: inline-block;
+}
+
+.email-popup {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    color: black;
+    padding: 5px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    display: none;
+    text-align: center;
+    font-size: 12px;
+    z-index: 2;
+}
+
+.mail:hover .email-popup {
+    display: block;
+}
