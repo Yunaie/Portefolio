@@ -3,6 +3,8 @@
     gap: 20px;
     justify-content: center;
     padding: 20px;
+    flex-wrap: wrap;
+    /* Add wrap to allow items to wrap in smaller screens */
 }
 
 .experiences-infos div {
@@ -10,45 +12,60 @@
     box-shadow: 0px 1px 15px #7597de;
     padding: 15px;
     transition: transform 0.2s ease-in-out;
+    flex: 1;
+    /* Adjust this if necessary for better control over flex items */
+    min-width: 210px;
+    /* Ensure items have a min width before wrapping */
 }
 
-.tcs,.fdj,.javaproject,.chatinc {
-    flex: 1; 
+.tcs,
+.fdj,
+.javaproject,
+.chatinc {
     display: flex;
     flex-direction: column;
-    align-items: center; 
-    border-radius: 10px; 
-    box-shadow: 0px 1px 15px #7597de; 
-    padding: 20px; 
-    margin: 20px; 
-    max-width: 210px; 
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0px 1px 15px #7597de;
+    padding: 20px;
+    margin: 20px;
+    max-width: 210px;
 }
 
 .experiences-infos div:hover {
     transform: translateY(-5px);
 }
 
-.experiences-infos h3 {
-    font-weight: 900;
+.experiences-infos h3,
+.experiences-infos p {
     margin-bottom: 20px;
     color: #d1ccdc;
+    /* Adjust color as needed */
     text-align: center;
-    margin: 0 0 10px 0;
 }
 
 .experiences-infos p {
     color: #fff;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 0.95rem;
     line-height: 1.6;
 }
 
-.experiences-infos a {
-    text-decoration: none;
-    color: inherit;
-}
+/* Responsive adjustments */
+@media (max-width: 400px) {
+    .experiences-infos {
+        flex-direction: column;
+        align-items: center;
+    }
 
-.experiences-infos a:hover {
-    text-decoration: underline;
+    .tcs,
+    .fdj,
+    .javaproject,
+    .chatinc {
+        width: 100%;
+        /* Make divs full width to stack them vertically */
+        max-width: none;
+        /* Override max-width */
+        margin: 10px 0;
+        /* Adjust margin for vertical stacking */
+    }
 }
-
